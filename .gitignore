@@ -1,0 +1,29 @@
+# ---- OS junk ----------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- Editors ----------------------------------------------------------------
+# .vscode/ is intentionally NOT ignored — settings.json and extensions.json are
+# committed so the project opens the same way on any machine.
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Node, only relevant if you later add tooling ---------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# ---- Deploy platform caches -------------------------------------------------
+.netlify/
+.vercel/
+.cache/
+dist/

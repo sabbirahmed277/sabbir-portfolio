@@ -1,0 +1,46 @@
+{
+  "//": "Project settings, committed so the folder behaves the same on any machine.",
+
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": false,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "// Live Server": "Right-click index.html -> 'Open with Live Server' for auto-reload on save.",
+  "liveServer.settings.root": "/",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "// Emmet": "Lets you type div.card>h3 and hit Tab inside HTML.",
+  "emmet.includeLanguages": { "html": "html" },
+
+  "// Spell checker": "Names and tech terms that are correct in this project.",
+  "cSpell.words": [
+    "Sabbir",
+    "Akash",
+    "Dhaka",
+    "Iching",
+    "TexMate",
+    "Overleaf",
+    "EasyOCR",
+    "MobileNet",
+    "Scikit",
+    "PyTorch",
+    "Django",
+    "netlify",
+    "vercel",
+    "noopener",
+    "noreferrer",
+    "backdrop",
+    "scrollspy",
+    "eyebrow",
+    "IDPC"
+  ],
+
+  "search.exclude": {
+    "**/.netlify": true,
+    "**/.vercel": true
+  }
+}

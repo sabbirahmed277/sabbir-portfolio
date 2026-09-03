@@ -1,0 +1,41 @@
+# Netlify configuration
+# This is a plain static site — there is nothing to build, so Netlify just
+# publishes the folder as-is. https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  # No build step. "." means "publish the repo root".
+  publish = "."
+  command = ""
+
+# Security + caching headers.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+# HTML should always revalidate so content edits go live immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Fingerprint-free assets: cache for an hour, long enough to help repeat
+# visits, short enough that a CSS tweak shows up without a hard refresh.
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+# Images and the résumé PDF rarely change and are safe to cache for a day.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

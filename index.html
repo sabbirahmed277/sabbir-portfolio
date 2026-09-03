@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabbir Ahmed Akash — CSE Undergraduate | AI & Software Engineering</title>
+<meta name="description" content="Portfolio of Sabbir Ahmed Akash — Computer Science and Engineering undergraduate based in Dhaka, Bangladesh, working across artificial intelligence, machine learning, and web development.">
+<meta name="author" content="Sabbir Ahmed Akash">
+<meta name="theme-color" content="#08080b">
+
+<!-- ⚠️ Replace this with your real URL after your first deploy — it's used by the
+     canonical tag, the social preview, sitemap.xml and robots.txt. -->
+<link rel="canonical" href="https://sabbir-portfolio.netlify.app/">
+
+<!-- Open Graph / social preview (LinkedIn, Facebook, Slack, Discord) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sabbir Ahmed Akash">
+<meta property="og:url" content="https://sabbir-portfolio.netlify.app/">
+<meta property="og:title" content="Sabbir Ahmed Akash — CSE Undergraduate | AI & Software Engineering">
+<meta property="og:description" content="Problem solving, artificial intelligence, and machine learning. Projects, experience, and contact.">
+<meta property="og:image" content="https://sabbir-portfolio.netlify.app/assets/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sabbir Ahmed Akash — AI / Machine Learning, Software Engineering">
+
+<!-- X / Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sabbir Ahmed Akash — CSE Undergraduate | AI & Software Engineering">
+<meta name="twitter:description" content="Problem solving, artificial intelligence, and machine learning. Projects, experience, and contact.">
+<meta name="twitter:image" content="https://sabbir-portfolio.netlify.app/assets/img/og-image.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<!-- Sets the theme before first paint so there's no flash of the wrong colours.
+     This one stays inline on purpose — as an external file it would load too
+     late and you'd see a flicker. Everything else lives in js/main.js. -->
+<script>
+(function () {
+  try {
+    var prefersLight = window.matchMedia &&
+                       window.matchMedia('(prefers-color-scheme: light)').matches;
+    document.documentElement.setAttribute('data-theme', prefersLight ? 'light' : 'dark');
+  } catch (e) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand" aria-label="Sabbir Ahmed Akash — back to top">
+      <span class="brand-mark" aria-hidden="true">SA</span>
+      <span>Sabbir Ahmed Akash</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+        <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+
+      <a class="nav-cta" href="mailto:sabbirahmedakash277@gmail.com?subject=Collaboration%20opportunity&amp;body=Hi%20Sabbir%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20possible%20collaboration.%0A%0A">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        Let's talk
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="badge rise">
+        <span class="dot" aria-hidden="true"></span>
+        Open to opportunities
+      </span>
+
+      <h1 class="rise" style="--d:60ms">
+        Sabbir Ahmed<br>
+        <span class="grad">Akash</span>
+      </h1>
+
+      <p class="hero-role rise" style="--d:140ms">
+        Computer Science &amp; Engineering undergraduate building at the intersection of
+        <b>artificial intelligence</b>, <b>machine learning</b>, and <b>the web</b>.
+      </p>
+
+      <div class="hero-meta rise" style="--d:200ms">
+        <span>Dhaka, Bangladesh</span>
+        <span class="sep" aria-hidden="true"></span>
+        <span>BSc CSE '26</span>
+        <span class="sep" aria-hidden="true"></span>
+        <span>Green University of Bangladesh</span>
+      </div>
+
+      <div class="actions rise" style="--d:260ms">
+        <!-- Primary contact: opens the visitor's mail client, pre-addressed and pre-filled -->
+        <a class="btn btn-primary" href="mailto:sabbirahmedakash277@gmail.com?subject=Let%E2%80%99s%20collaborate&amp;body=Hi%20Sabbir%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20possible%20collaboration.%0A%0AA%20bit%20about%20the%20project%3A%0A%0A%0AThanks%2C%0A">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          Let's collaborate
+        </a>
+        <!-- To update: replace assets/resume/resume.pdf. The download attribute controls
+             the filename the visitor receives, so the file on disk can stay resume.pdf. -->
+        <a class="btn btn-ghost" href="assets/resume/resume.pdf" download="Sabbir-Ahmed-Akash-Resume.pdf">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Résumé
+        </a>
+      </div>
+
+      <div class="socials rise" style="--d:320ms">
+        <a href="https://github.com/sabbirahmed277" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.55v-1.94c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.69 5.4-5.26 5.69.41.36.78 1.06.78 2.14v3.17c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/Sabbir277/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.4 21.5h5.16V9.04H2.4V21.5Zm7.4-12.46h4.95v1.7h.07c.69-1.2 2.37-2.09 4.2-2.09 3.6 0 4.58 2.14 4.58 5.42v7.43h-5.15v-6.6c0-1.58-.6-2.65-2.03-2.65-1.1 0-1.83.72-2.13 1.42-.11.24-.14.58-.14.93v6.9H9.8s.07-11.2 0-12.46Z"/></svg>
+        </a>
+        <a href="https://leetcode.com/u/sabbir277/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" title="LeetCode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/><path d="m14.5 4-5 16"/></svg>
+        </a>
+        <a href="mailto:sabbirahmedakash277@gmail.com" aria-label="Email" title="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>01</span> About</p>
+
+      <div class="about-grid">
+        <div class="about-body reveal" style="--d:80ms">
+          <h2 class="section-title">Turning technical knowledge into things that actually run.</h2>
+          <p>
+            I'm a <strong>Computer Science and Engineering undergraduate</strong> at Green University of
+            Bangladesh, finishing my BSc in 2026. Most of what I've built so far has come out of academic
+            and self-driven projects — which means I've spent a lot of time on the unglamorous parts:
+            debugging, evaluating, and rewriting until the thing works.
+          </p>
+          <p>
+            My focus sits in <strong>problem solving, artificial intelligence, and machine learning</strong>.
+            That's ranged from integrating LLM agents into a collaborative editor, to comparing
+            <strong>SSD MobileNet</strong> against <strong>Faster R-CNN</strong> for text detection and
+            measuring the difference properly with precision, recall, and F1.
+          </p>
+          <p>
+            Alongside that I work across the stack — most recently as a
+            <strong>software engineering intern</strong> writing frontend code in Vue.js. I'm drawn to
+            practical, effective solutions over clever ones.
+          </p>
+        </div>
+
+        <dl class="facts reveal" style="--d:160ms">
+          <div class="fact">
+            <dt>Based in</dt>
+            <dd>Dhaka, Bangladesh</dd>
+          </div>
+          <div class="fact">
+            <dt>Studying</dt>
+            <dd>BSc in Computer Science &amp; Engineering<small>Green University of Bangladesh · 2022–2026</small></dd>
+          </div>
+          <div class="fact">
+            <dt>Focus areas</dt>
+            <dd>Artificial Intelligence, Machine Learning, Web Development</dd>
+          </div>
+          <div class="fact">
+            <dt>Currently</dt>
+            <dd>Software Engineering Intern<small>Iching Software Lab</small></dd>
+          </div>
+          <div class="fact">
+            <dt>Problem solving</dt>
+            <dd><a class="link" href="https://leetcode.com/u/sabbir277/" target="_blank" rel="noopener noreferrer">LeetCode / sabbir277</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS
+       ============================================================ -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>02</span> Skills</p>
+      <h2 class="section-title reveal" style="--d:60ms">Tools I work with</h2>
+      <p class="section-lede reveal" style="--d:100ms">
+        Languages and libraries I've used in coursework, projects, and on the job.
+      </p>
+
+      <div class="skills" style="margin-top:34px">
+        <div class="skill-row reveal">
+          <h3>Programming Languages<em>Core</em></h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">C</span>
+            <span class="chip">C++</span>
+            <span class="chip">Java</span>
+          </div>
+        </div>
+
+        <div class="skill-row reveal" style="--d:70ms">
+          <h3>Data Science &amp; AI<em>Modelling</em></h3>
+          <div class="chips">
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">Matplotlib</span>
+            <span class="chip">Scikit-learn</span>
+            <span class="chip">PyTorch</span>
+          </div>
+        </div>
+
+        <div class="skill-row reveal" style="--d:140ms">
+          <h3>Web &amp; Databases<em>Full stack</em></h3>
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">PHP</span>
+            <span class="chip">MySQL</span>
+          </div>
+        </div>
+
+        <div class="skill-row reveal" style="--d:210ms">
+          <h3>Tools &amp; Version Control<em>Workflow</em></h3>
+          <div class="chips">
+            <span class="chip">Git</span>
+            <span class="chip">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS
+       ============================================================ -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>03</span> Projects</p>
+      <h2 class="section-title reveal" style="--d:60ms">Selected work</h2>
+      <p class="section-lede reveal" style="--d:100ms">
+        Four projects that cover the range — an LLM-powered platform, a computer vision pipeline,
+        a full-stack booking system, and a pure object-oriented build.
+      </p>
+
+      <div class="projects" style="margin-top:34px">
+
+        <!-- TexMate
+             TODO: add repo link, e.g. wrap <h3> in <a href="https://github.com/..."> -->
+        <article class="card reveal">
+          <div class="card-head">
+            <span class="card-ico" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg>
+            </span>
+            <h3>TexMate</h3>
+          </div>
+          <p class="card-stack">Django · Next.js · Google Authentication · Meta LLM</p>
+          <ul>
+            <li>An intelligent learning and collaboration platform built as an <strong>alternative to Overleaf</strong>.</li>
+            <li>Integrated <strong>Meta LLM agents</strong> for real-time document assistance, formatting, and context-aware editing.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Django</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">Agentic LLM</span>
+            <span class="tag">OAuth</span>
+          </div>
+        </article>
+
+        <!-- Image Preprocessing & Text Detection
+             TODO: add repo link -->
+        <article class="card reveal" style="--d:70ms">
+          <div class="card-head">
+            <span class="card-ico" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-4.5-4.5L3 21"/></svg>
+            </span>
+            <h3>Image Preprocessing &amp; Text Detection</h3>
+          </div>
+          <p class="card-stack">Python · SSD MobileNet · Faster R-CNN · EasyOCR</p>
+          <ul>
+            <li>A text detection system that <strong>extracts and recognises text from images</strong> using machine learning.</li>
+            <li>Applied <strong>image denoising</strong> during preprocessing to improve detection accuracy.</li>
+            <li>Ran object detection with <strong>SSD MobileNet</strong> and <strong>Faster R-CNN</strong>, drawing bounding boxes around detections.</li>
+            <li>Used <strong>EasyOCR</strong> for extraction and evaluated with <strong>precision, recall, and F1-score</strong> to compare both architectures.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Image Processing</span>
+            <span class="tag">OCR</span>
+            <span class="tag">Model Evaluation</span>
+          </div>
+        </article>
+
+        <!-- Air Ticket Booking System
+             TODO: add repo link -->
+        <article class="card reveal" style="--d:140ms">
+          <div class="card-head">
+            <span class="card-ico" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5a2.1 2.1 0 0 0-3-3L13 8 4.8 6.2a.8.8 0 0 0-.8 1.3L8 11l-2 4-3-1-1 1 4 2 2 4 1-1-1-3 4-2 3.5 4a.8.8 0 0 0 1.3-.8Z"/></svg>
+            </span>
+            <h3>Air Ticket Booking System</h3>
+          </div>
+          <p class="card-stack">HTML · CSS · JavaScript · PHP · MySQL</p>
+          <ul>
+            <li>A web-based booking system letting users <strong>search, book, and manage flight tickets</strong>.</li>
+            <li>Built the frontend in HTML, CSS, and JavaScript, with backend logic in <strong>PHP and MySQL</strong>.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Full Stack</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">CRUD</span>
+          </div>
+        </article>
+
+        <!-- Movie Database System
+             TODO: add repo link -->
+        <article class="card reveal" style="--d:210ms">
+          <div class="card-head">
+            <span class="card-ico" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M7 4v16M17 4v16M2 10h20M2 14h20"/></svg>
+            </span>
+            <h3>Movie Database System</h3>
+          </div>
+          <p class="card-stack">Java · Object-Oriented Programming · File Handling</p>
+          <ul>
+            <li>Built on core <strong>OOP concepts</strong> — classes, objects, inheritance, and encapsulation.</li>
+            <li>Used <strong>file-based storage</strong> in Java to manage and retrieve movie records efficiently.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">OOP</span>
+            <span class="tag">File I/O</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE
+       ============================================================ -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>04</span> Experience</p>
+      <h2 class="section-title reveal" style="--d:60ms">Where I've worked</h2>
+
+      <div class="timeline" style="margin-top:34px">
+        <div class="tl-item reveal" style="--d:100ms">
+          <div class="tl-top">
+            <h3>Software Engineering Intern</h3>
+            <span class="tl-org">Iching Software Lab</span>
+          </div>
+          <p class="tl-date">February 2026 — May 2026</p>
+          <ul>
+            <li>Completed frontend development tasks using <strong>Vue.js</strong>.</li>
+            <li>Developed and improved <strong>user interfaces</strong>, fixed UI-related issues, and supported ongoing web application maintenance.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       EDUCATION & PARTICIPATION
+       ============================================================ -->
+  <section class="section" id="education">
+    <div class="wrap">
+      <p class="eyebrow reveal"><span>05</span> Education &amp; Activity</p>
+      <h2 class="section-title reveal" style="--d:60ms">Background</h2>
+
+      <div class="two-col" style="margin-top:34px">
+        <div class="panel reveal" style="--d:100ms">
+          <p class="panel-label">Education</p>
+          <h3>BSc in Computer Science &amp; Engineering</h3>
+          <p class="meta">Green University of Bangladesh · 2022 — 2026</p>
+          <p>
+            Four years of coursework across programming fundamentals, object-oriented design,
+            databases, and machine learning — paired with the project work above.
+          </p>
+        </div>
+
+        <div class="panel reveal" style="--d:170ms">
+          <p class="panel-label">Participation</p>
+          <h3>Intra Department Programming Contest</h3>
+          <p class="meta">IDPC · Green University of Bangladesh</p>
+          <p>
+            Competitive programming keeps the fundamentals sharp. I also work through problems
+            regularly on LeetCode as <a class="link" href="https://leetcode.com/u/sabbir277/" target="_blank" rel="noopener noreferrer">sabbir277</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+       ============================================================ -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <h2>Let's build something together.</h2>
+        <p>
+          I'm open to internships, junior engineering roles, and project collaborations —
+          especially anything involving AI, machine learning, or frontend work.
+          One click and your email client opens, already addressed to me.
+        </p>
+
+        <div class="actions">
+          <a class="btn btn-primary" href="mailto:sabbirahmedakash277@gmail.com?subject=Let%E2%80%99s%20collaborate&amp;body=Hi%20Sabbir%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20possible%20collaboration.%0A%0AA%20bit%20about%20the%20project%3A%0A%0A%0AThanks%2C%0A">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            Email me about a collaboration
+          </a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/Sabbir277/" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.4 21.5h5.16V9.04H2.4V21.5Zm7.4-12.46h4.95v1.7h.07c.69-1.2 2.37-2.09 4.2-2.09 3.6 0 4.58 2.14 4.58 5.42v7.43h-5.15v-6.6c0-1.58-.6-2.65-2.03-2.65-1.1 0-1.83.72-2.13 1.42-.11.24-.14.58-.14.93v6.9H9.8s.07-11.2 0-12.46Z"/></svg>
+            Connect on LinkedIn
+          </a>
+        </div>
+
+        <div class="email-line">
+          <span>sabbirahmedakash277@gmail.com</span>
+          <button class="copy-btn" id="copyBtn" type="button" aria-label="Copy email address">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            <span id="copyLabel">Copy</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p>© <span id="year">2026</span> Sabbir Ahmed Akash · Dhaka, Bangladesh</p>
+    <nav aria-label="Elsewhere">
+      <a href="https://github.com/sabbirahmed277" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/Sabbir277/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://leetcode.com/u/sabbir277/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      <a href="#top">Top</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

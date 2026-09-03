@@ -1,0 +1,9 @@
+{
+  "//": "VS Code will offer to install these when you open the folder.",
+  "recommendations": [
+    "ritwickdey.liveserver",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
